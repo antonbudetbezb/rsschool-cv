@@ -1,6 +1,5 @@
 # Anton Bezborodov
 #### Junior frontend developer
-![It`s me](https://github.com/antonbudetbezb/rsschool-cv/blob/gh-pages/assets/images/Avatar_rsschool.png)
 
 ## Contact information:
 - Telegram: [@antonbezb](https://t.me/antonbezb)
