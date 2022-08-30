@@ -1,6 +1,6 @@
 # Anton Bezborodov
 #### Junior frontend developer
-![It`s me](/rsschool-cv/Avatar%20rsschool.png)
+![It`s me](https://github.com/antonbudetbezb/rsschool-cv/blob/gh-pages/Avatar%20rsschool.png)
 
 ## Contact information:
 - Telegram: @antonbezb
@@ -32,7 +32,7 @@ console.log(persUpdate.age)
 ```
 
 ## My project:
-> [This CV](/rsschool-cv/cv.md) is my first public project in web development
+> [This CV](https://github.com/antonbudetbezb/rsschool-cv/blob/gh-pages/cv.md) is my first public project in web development
 
 ## Education:
 > I`ve finished NArFU unicersity in "Oil and Gas engineering" speciality. Last month i decided to become a developer. As of today, i`ve completed Bogdan Staschuk course "JS for begginers" in Udemy
