@@ -3,12 +3,12 @@
 ![It`s me](https://github.com/antonbudetbezb/rsschool-cv/blob/gh-pages/Avatar%20rsschool.png)
 
 ## Contact information:
-- Telegram: @antonbezb
+- Telegram: [@antonbezb](https://t.me/antonbezb)
 - Discord: Anton Bez B#5742
-- Twitter: @antonbezb
+- Twitter: [@antonbezb](https://twitter.com/AntonBezB)
 
 ## About:
-> I`m Anton. 23 years-old master`s student from the North of Russia. I`ve never learnt programming till this summer. My goal is becoming web3 developer in a year. See you soon!
+> I\`m Anton. 23 years-old master\`s student from the North of Russia. I\`ve never learnt programming till this summer. My goal is becoming web3 developer in a year. See you soon!
 
 ## Skills:
 > Frontend starter pack: html, css, js
@@ -35,7 +35,7 @@ console.log(persUpdate.age)
 > [This CV](https://github.com/antonbudetbezb/rsschool-cv/blob/gh-pages/cv.md) is my first public project in web development
 
 ## Education:
-> I`ve finished NArFU unicersity in "Oil and Gas engineering" speciality. Last month i decided to become a developer. As of today, i`ve completed Bogdan Staschuk course "JS for begginers" in Udemy
+> I\`ve finished NArFU unicersity in "Oil and Gas engineering" speciality. Last month i decided to become a developer. As of today, i\`ve completed Bogdan Staschuk course "JS for begginers" in Udemy
 
 ## English:
 B1
