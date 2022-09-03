@@ -6,125 +6,148 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
-<body>
-    <div class="container">
-        <header class="header">
-            <div class="footer-name">
-                <p class="page-name">CV</p>
+<body class="bgcolor_white">
+        <header class="header bgcolor_ocean">
+            <div class="container_header">
+                <div class="header_section footer_name">
+                    CV
+                </div>
+                <nav class="header_section navigation">
+                    <ul class="menu">
+                        <li class="menu_options"><a href="#Contacts">Contacts</a></li>
+                        <li class="menu_options"><a href="#About">About</a></li>
+                        <li class="menu_options"><a href="#Skills">Skills</a></li>
+                        <li class="menu_options"><a href="#Code">Code</a></li>
+                        <li class="menu_options"><a href="#Expierence">Expierence</a></li>
+                        <li class="menu_options"><a href="#Education">Education</a></li>
+                        <li class="menu_options"><a href="#Language">Language skills</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navigation">
-                <ul class="menu">
-                    <li class="menu_options"><a href="#Contacts">Contacts</a></li>
-                    <li class="menu_options"><a href="#About">About</a></li>
-                    <li class="menu_options"><a href="#Skills">Skills</a></li>
-                    <li class="menu_options"><a href="#Code">Code</a></li>
-                    <li class="menu_options"><a href="#Expierence">Expierence</a></li>
-                    <li class="menu_options"><a href="#Education">Education</a></li>
-                    <li class="menu_options"><a href="#Language">Language skills</a></li>
-                </ul>
-            </nav>
         </header>
         <main class="main">
-            <section class="section" id="Contacts">
-                <h3 class="section_header">Contact information:</h3>
-                <ul class="contact_list">
-                    <li class="contact_option">
-                        <div class="icon_contact"></div>
-                        <p class="contact_text">
-                            Telegram:
-                            <a href="https://t.me/antonbezb" class="text_link" target="_blank">@antonbezb</a>
+            <div class="container">
+                <section class="section" id="intro">
+                    <div class="PFP_section">
+                        <img src="./assets/img/Avatar.png" alt="PFP" class="PFP">
+                    </div>
+                    <div class="intro_info">
+                        <h1 class="info_header">Anton Bezborodov</h1>
+                        <p>Future junior frontend developer</p>
+                    </div>
+                    </ul>
+                </section>
+                <section class="section bgcolor_blue" id="Contacts">
+                    <h3 class="section_header">Contact information:</h3>
+                    <ul class="contact_list">
+                        <li class="contact_option">
+                            <div class="icon_contact">
+                                <img src="./assets/svg/telegram-icon.svg" alt="tel_logo" class="icon_socmed">
+                            </div>
+                            <div class="contact_text">
+                                Telegram:
+                                <a href="https://t.me/antonbezb" class="text_link" target="_blank">@antonbezb</a>
+                            </div>
+                        </li>
+                        <li class="contact_option">
+                            <div class="icon_contact">
+                                <img src="./assets/svg/discord-icon.svg" alt="tel_logo" class="icon_socmed">
+                            </div>
+                            <div class="contact_text">
+                                Discord: Anton Bez B#5742
+                            </div>
+                        </li>
+                        <li class="contact_option">
+                            <div class="icon_contact">
+                                <img src="./assets/svg/twitter-icon.svg" alt="tel_logo" class="icon_socmed">
+                            </div>
+                            <div class="contact_text">
+                                Twitter:
+                                <a href="https://twitter.com/AntonBezB" class="text_link" target="_blank">@antonbezb</a>
+                            </d>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section bgcolor_lightblue" id="About">
+                    <h3 class="section_header">About me:</h3>
+                    <div class="textblock">
+                        <p class="direct_speech">
+                            I`m Anton. 23 years-old master`s student from the North of Russia.
+                            I`ve never learnt programming till this summer.
+                            My goal is becoming web3 developer in a year. See you soon!
                         </p>
-                    </li>
-                    <li class="contact_option">
-                        <div class="icon_contact"></div>
-                        <p class="contact_text">
-                            Discord: Anton Bez B#5742
+                    </div>
+                </section>
+                <section class="section bgcolor_blue" id="Skills">
+                    <h3 class="section_header">Skills:</h3>
+                    <div class="textblock">
+                        <p class="direct_speech">
+                            I have frontend-starterpack: HTML, CSS, JS
                         </p>
-                    </li>
-                    <li class="contact_option">
-                        <div class="icon_contact"></div>
-                        <p class="contact_text">
-                            Twitter:
-                            <a href="https://twitter.com/AntonBezB" class="text_link" target="_blank">@antonbezb</a>
+                    </div>
+                </section>
+                <section class="section bgcolor_lightblue" id="Code">
+                    <h3 class="section_header">Example of code:</h3>
+                    <div class="code_example">
+                        <pre class="code">
+const pers = {
+    name: 'Anton',
+    age: 23
+}
+                            
+function ageIncrease (person) {
+    persUpdate = {... person}
+    persUpdate.age += 1
+    return persUpdate
+}
+                            
+const updatedPerson = ageIncrease(pers)
+console.log(pers.age)
+console.log(persUpdate.age)
+                        </pre>
+                    </div>
+                </section>
+                <section class="section bgcolor_blue" id="Expierence">
+                    <h3 class="section_header">My project:</h3>
+                    <div class="textblock">
+                        <p class="direct_speech">
+                            I haven`t have relevant expierence yet.
+                            <a href="https://github.com/antonbudetbezb/rsschool-cv/" class="text_link" target="_blank">This CV</a> is my first public project in web development.
                         </p>
-                    </li>
-                </ul>
-            </section>
-            <section class="section" id="About">
-                <h3 class="section_header">About me:</h3>
-                <div class="textblock">
-                    <p class="direct_speech">
-                        I`m Anton. 23 years-old master`s student from the North of Russia.
-                        I`ve never learnt programming till this summer.
-                        My goal is becoming web3 developer in a year. See you soon!
-                    </p>
-                </div>
-            </section>
-            <section class="section" id="Skills">
-                <h3 class="section_header">Skills:</h3>
-                <div class="textblock">
-                    <p class="direct_speech">
-                        I have frontend-starterpack: HTML, CSS, JS
-                    </p>
-                </div>
-            </section>
-            <section class="section" id="Code">
-                <h3 class="section_header">Example of code:</h3>
-                <div class="code_example">
-                    <pre class="code">
-                        const pers = {
-                            name: 'Anton',
-                            age: 23
-                         }
-                         
-                         function ageIncrease (person) {
-                            persUpdate = {... person}
-                            persUpdate.age += 1
-                            return persUpdate
-                         }
-                         
-                         const updatedPerson = ageIncrease(pers)
-                         console.log(pers.age)
-                         console.log(persUpdate.age)
-                    </pre>
-                </div>
-            </section>
-            <section class="section" id="Expierence">
-                <h3 class="section_header">My project:</h3>
-                <div class="textblock">
-                    <p class="direct_speech">
-                        I haven`t have relevant expierence yet.
-                        <a href="https://github.com/antonbudetbezb/rsschool-cv/" class="text_link" target="_blank">This CV</a> is my first public project in web development.
-                    </p>
-                </div>
-            </section>
-            <section class="section" id="Education">
-                <h3 class="section_header">Education:</h3>
-                <div class="textblock">
-                    <p class="direct_speech">
-                        I`ve finished NArFU unicersity in "Oil and Gas engineering" speciality.
-                        Last month i decided to become a developer.
-                        As of today, i`ve completed Bogdan Staschuk course "JS for begginers" in Udemy.
-                    </p>
-                </div>
-            </section>
-            <section class="section" id="Language">
-                <h3 class="section_header">English:</h3>
-                <div class="eng_level">
-                    <!-- <div class="english_icon">Cup logo here</div> -->
-                    <p class="eng_achieved">Reached level: B1</p>
-                </div>
-                <div class="textblock">
-                    <p class="direct_speech">
-                        Finished language courses in university and trained understanding in crypto for 1 year
-                    </p>
-                </div>
-            </section>
+                    </div>
+                </section>
+                <section class="section bgcolor_lightblue" id="Education">
+                    <h3 class="section_header">Education:</h3>
+                    <div class="textblock">
+                        <p class="direct_speech">
+                            I`ve finished NArFU university in "Oil and Gas engineering" speciality.
+                            Last month i decided to become a developer.
+                            As of today, i`ve completed Bogdan Staschuk course "JS for begginers" in Udemy.
+                        </p>
+                    </div>
+                </section>
+                <section class="section bgcolor_blue" id="Language">
+                    <h3 class="section_header">English:</h3>
+                    <div class="eng_level">
+                        <div class="english_icon">
+                            <img src="./assets/svg/cup-icon.svg" alt="" class="icon_eng">
+                        </div>
+                        <div class="eng_text">Reached level: B1</div>
+                    </div>
+                    <div class="textblock">
+                        <p class="direct_speech">
+                            Finished language courses in university and trained understanding in crypto for 1 year
+                        </p>
+                    </div>
+                </section>
+            </div>
         </main>
-    </div>
     <!-- <footer class="footer">
         <div class="rslogo">
             <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md">
