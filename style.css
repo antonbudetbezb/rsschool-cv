@@ -154,6 +154,25 @@
     font-weight: 600;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.footer_logo {
+    height: 30px;
+}
+
+.footer_year {
+    font-weight: 600;
+    font-size: 20px;
+}
+
 /* Colors */
 .bgcolor_orange {
     background-color: #F26101;
